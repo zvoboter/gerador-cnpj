@@ -36,8 +36,7 @@ main form .input-block {
 
 main form .input-block input {
   height: 55px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-radius: 3px;
   color: #254441  ;
   font-size: 25px;
   font-weight: 500;
@@ -57,11 +56,11 @@ main form .content-right button {
   padding: 2px;
   flex: 1;
 
-  transition: 0.2ms;
+  transition: .3s;
 }
 
 main form .content-right button:hover {
-  background: #43aa8b;
+  background: #3a9278;
   cursor: pointer;
 }
 
