@@ -48,7 +48,7 @@ main form .input-block input {
 main form .content-right button {
   height: 55px;
   border-radius: 3px;
-  background: #43aa8b;
+  background: #3a9278;
   color: #fff;
   font-size: 25px;
   font-weight: 500;
@@ -60,7 +60,7 @@ main form .content-right button {
 }
 
 main form .content-right button:hover {
-  background: #3a9278;
+  background: #43aa8b;
   cursor: pointer;
 }
 
