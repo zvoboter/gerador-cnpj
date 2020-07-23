@@ -32,8 +32,7 @@ function App() {
   const handleCNPJ = (e) => {
     e.preventDefault();
 
-    let cnpj = createCnpj();
-    setCnpj(cnpj);
+    setCnpj(createCnpj());
   }
 
   return (
@@ -46,7 +45,7 @@ function App() {
               <input name="cnpj"
                 id="cnpj"
                 value={cnpj}
-                onChange={e => setCnpj(e.target.value)}
+                readOnly={true}
                 placeholder="00.000.000/0001-01"
                 contentEditable="false" />
             </div>
