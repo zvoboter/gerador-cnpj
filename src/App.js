@@ -1,10 +1,7 @@
 import React from 'react';
-
 import { BrowserRouter, Link } from 'react-router-dom';
 
-import Main from './pages/Main';
 import './App.css';
-
 import Routes from './routes';
 
 
