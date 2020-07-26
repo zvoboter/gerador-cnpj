@@ -1,0 +1,41 @@
+nav {
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 20%;
+    display: flex;
+    height: 50px;
+}
+
+nav ul li {
+    display: flex;
+    flex: 1;
+    line-height: 50px;
+
+    transition: 0.2s;
+}
+
+nav ul li .link {
+    flex: 1;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    color: #646369;
+}
+
+nav ul li .link.selected,
+nav ul li .link:not(.selected):hover {
+    border-bottom: 2px solid #2d00f7;
+    color: #2d00f7;
+}
+
+nav ul li .link.selected  {
+    cursor: initial;
+}

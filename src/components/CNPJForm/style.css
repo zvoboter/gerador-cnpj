@@ -1,0 +1,72 @@
+
+form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+}
+
+form .content-left {
+  flex: 8;
+}
+
+form .content-right {
+  flex: 2;
+  display: flex;
+}
+
+form .input-block {
+  display: flex;
+}
+
+form .input-block input {
+  height: 55px;
+  color: #1D3557;
+  border-bottom: 1px solid #2d00f7;
+  font-size: 25px;
+  font-weight: 500;
+  background: #fff;
+  padding: 0 20px;
+  flex: 1;
+}
+
+form .content-right button {
+  height: 55px;
+  border-radius: 3px;
+  background: #2d00f7;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 5px;
+  padding: 2px;
+  flex: 1;
+
+  transition: .3s;
+}
+
+form .content-right button:hover {
+  background: #2500CC;
+  cursor: pointer;
+}
+
+form .content-left .recent-list {
+  display: flex;
+}
+
+form .content-left .recent-list ul {
+  flex: 1;
+  list-style-type: none;
+  background: #fff;
+  border-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+form .content-left .recent-list ul li {
+  line-height: 55px;
+  font-size: 25px;
+  padding: 0 20px;
+  border-top: 1px solid #457B9D;
+  color: #1D3557;
+}

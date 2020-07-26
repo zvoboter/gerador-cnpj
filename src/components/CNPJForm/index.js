@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { createCnpj } from '../../services/cnpj';
 
+import './style.css';
+
 function CNPJForm() {
     const [cnpj, setCnpj] = useState('');
 

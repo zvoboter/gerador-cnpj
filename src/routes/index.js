@@ -8,12 +8,10 @@ import Hash from '../pages/Hash';
 
 const Routes = () => (
     <Switch>
-        <Route path="/" exact={true} component={Main}></Route>
-
-        <Route path="/cnpj" component={Main}></Route>
-        <Route path="/rut" component={Rut}></Route>
-        <Route path="/nick" component={Nick}></Route>
-        <Route path="/hash" component={Hash}></Route>
+        <Route path={["/cnpj", "/"]} exact component={Main}></Route>
+        <Route path="/rut" exact component={Rut}></Route>
+        <Route path="/nick" exact component={Nick}></Route>
+        <Route path="/hash" exact component={Hash}></Route>
     </Switch>
 );
 
