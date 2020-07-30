@@ -23,7 +23,7 @@ function HashForm() {
             <div className="dv-main-hash">
                 <div className="dv-column-encode">
                     <div id="menu-lateral" className="menu-lateral">
-                        <select id="acao" value={tipoHash} onChange={(e) => (setTipoHash(e.target.value))} className="input-efeito">
+                        <select id="acao" value={tipoHash} onChange={(e) => (setTipoHash(e.target.value))} className="input-efeito pointer">
                             <option key="encode" value="encode" disabled>Encode</option>
                             {acoesEncode.map((acao) =>
                                 (<option key={acao.value} value={acao.value}>{acao.label}</option>)
@@ -36,13 +36,13 @@ function HashForm() {
                     </div>
                 </div>
                 <div className="dv-row-input">
-                    <textarea id="input" placeholder="Input" className="input-efeito tamannho-textearea" onChange={(e) => (setInputHash(e.target.value))}></textarea>
+                    <textarea id="input" placeholder="Input" className="input-efeito tamanho-textearea" onChange={(e) => (setInputHash(e.target.value))}></textarea>
                 </div>
                 <div className="dv-row-input">
                     <button className="button-hash" onClick={() => { document.getElementById('output').value = createHash(tipoHash, inputHash); }}>Gerar</button>
                 </div>
                 <div className="dv-row-input">
-                    <textarea id="output" placeholder="Output" className="input-efeito tamannho-textearea"></textarea>
+                    <textarea id="output" placeholder="Output" className="input-efeito tamanho-textearea"></textarea>
                 </div>
             </div>
         </>
