@@ -1,0 +1,81 @@
+.dv-main-hash{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dv-row-hash{
+    flex: 1;
+    height: 50px;
+    background-color: royalblue;
+    margin: 10px;
+}
+
+.dv-row-input{
+    display: flex;
+    flex: 1;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-efeito {
+	display: block;
+	width: 100%;
+	border: 0;
+	padding: 10px 5px;
+  background: white no-repeat;
+	
+	/*
+	* IMPORTANT PART HERE
+	*/
+	
+  /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
+	background-image: linear-gradient(to bottom, #2500CC, #2500CC), linear-gradient(to bottom, silver, silver);
+	/* sizes for the 2 images (default state) */
+	background-size: 0 2px, 100% 1px;
+	/* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+	background-position: 50% 100%, 50% 100%;
+
+	/* animation solely on background-size */
+  transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+
+}
+
+.input-efeito:focus{
+  /* sizes for the 2 images (focus state) */
+	background-size: 100% 2px, 100% 1px;
+	outline: none;
+}
+
+.tamannho-textearea{
+  height: 200px;
+  line-height: 20px;
+  font-size: 12pt;
+  resize: none;
+}
+
+.button-hash {
+  height: 35px;
+  width: 100px;
+  border-radius: 3px;
+  background: #2d00f7;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5px;
+  padding: 2px;
+  flex: 1;
+
+  transition: .3s;
+}
+
+.button-hash:hover {
+  background: #2500CC;
+  cursor: pointer;
+}
+
+select{
+  cursor: pointer;
+}
