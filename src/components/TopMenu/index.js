@@ -23,9 +23,6 @@ function TopMenu() {
                     <NavLink to="/rut" className="link" activeClassName="selected">RUT</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/nick" className="link" activeClassName="selected">Nick</NavLink>
-                </li>
-                <li>
                     <NavLink to="/hash" className="link" activeClassName="selected">Hash</NavLink>
                 </li>
                 <li>
