@@ -1,8 +1,9 @@
 import React from 'react';
+import HashForm from '../../components/HashForm';
 
 function Hash() {
     return (
-        <h1>Gerador de Hash</h1>
+        <HashForm></HashForm>
     )
 }
 

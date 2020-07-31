@@ -28,6 +28,9 @@ function TopMenu() {
                 <li>
                     <NavLink to="/hash" className="link" activeClassName="selected">Hash</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/characterCounter" className="link" activeClassName="selected">Contador de caracteres</NavLink>
+                </li>
             </ul>
         </nav>
     );

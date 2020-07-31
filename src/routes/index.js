@@ -6,15 +6,17 @@ import Rut from '../pages/Rut';
 import Nick from '../pages/Nick';
 import Hash from '../pages/Hash';
 import ValidateCnpj from '../pages/ValidateCnpj';
+import CharacterCounter from '../pages/CharacterCounter';
 
 const Routes = () => (
-    <Switch>
-        <Route path={["/cnpj", "/"]} exact component={Main}></Route>
-        <Route path="/rut" exact component={Rut}></Route>
-        <Route path="/nick" exact component={Nick}></Route>
-        <Route path="/hash" exact component={Hash}></Route>
-        <Route path="/validatecnpj" exact component={ValidateCnpj}></Route>
-    </Switch>
+        <Switch>
+                <Route path={["/cnpj", "/"]} exact component={Main}></Route>
+                <Route path="/rut" exact component={Rut}></Route>
+                <Route path="/nick" exact component={Nick}></Route>
+                <Route path="/hash" exact component={Hash}></Route>
+                <Route path="/validatecnpj" exact component={ValidateCnpj}></Route>
+                <Route path="/characterCounter" exact component={CharacterCounter}></Route>
+        </Switch>
 );
 
 export default Routes;
