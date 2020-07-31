@@ -31,7 +31,7 @@ function CNPJForm() {
     }
 
     return (
-        <form onSubmit={handleCNPJ}>
+        <form id="Cnpj" onSubmit={handleCNPJ}>
             <div className="content-left">
                 <div className="input-block">
                     <input name="cnpj"

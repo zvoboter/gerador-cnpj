@@ -1,5 +1,4 @@
-
-form {
+form#Cnpj {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -7,83 +6,24 @@ form {
   width: 100%;
 }
 
-form .content-left {
+form#Cnpj .content-left {
   flex: 8;
 }
 
-form .content-right {
+form#Cnpj .content-right {
   flex: 2;
   display: flex;
 }
 
-form .input-block {
-  display: flex;
-
-  height: 55px;
-  border-bottom: 1px solid #353535;
-  
-  background: #fff;
-  padding: 0 20px;
-}
-
-form .input-block input {
-  flex: 1;
-  font-size: 25px;
-  color: #1D3557;
-  font-weight: 500;
-  transition: 0.3s;
-}
-
-.icon-input {
-  color: #1D3557;
-  height: 55px;
-  cursor: pointer;
-  margin: 0 5px;
-
-  transition: 0.3s;
-}
-
-.icon-input:hover {
-  color: #2d00f7;
-}
-
-form .input-block:hover {
-  border-bottom: 1px solid #2d00f7;
-}
-
-form .input-block:focus-within {
-  border-bottom: 1px solid #2d00f7;
-  box-shadow: 0 2px 2px -2px rgba(45,0,247,1);
-}
-
-form .content-right button {
-  height: 55px;
-  border-radius: 3px;
-  background: #2d00f7;
-  color: #fff;
-  font-size: 25px;
-  font-weight: 500;
-  margin-left: 5px;
-  padding: 2px;
-  flex: 1;
-
-  transition: .3s;
-}
-
-form .content-right button:hover {
-  background: #2500CC;
-  cursor: pointer;
-}
-
-form .content-left .recent-list {
+form#Cnpj .content-left .recent-list {
   display: flex;
 }
 
-form .content-left h3 {
+form#Cnpj .content-left h3 {
   margin-top: 20px;
 }
 
-form .content-left .recent-list ul {
+form#Cnpj .content-left .recent-list ul {
   flex: 1;
   list-style-type: none;
   background: #fff;
@@ -93,27 +33,27 @@ form .content-left .recent-list ul {
   overflow-y: auto;
 }
 
-form .content-left .recent-list ul li {
+form#Cnpj .content-left .recent-list ul li {
   line-height: 55px;
   padding: 0 20px;
   border-top: 1px solid #c6c6c6;
   
 }
 
-form .content-left .recent-list ul li div span {
+form#Cnpj .content-left .recent-list ul li div span {
   font-size: 25px;
   color: #1D3557;
 }
 
-form .content-left .recent-list ul li div {
+form#Cnpj .content-left .recent-list ul li div {
   display: flex;
   align-items: center;
 }
 
-form .content-left .recent-list ul li div span {
+form#Cnpj .content-left .recent-list ul li div span {
   flex: 1;
 }
 
-form .content-left .recent-list ul li:nth-child(1){
+form#Cnpj .content-left .recent-list ul li:nth-child(1){
   border-top: none;
 }

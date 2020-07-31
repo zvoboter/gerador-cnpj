@@ -17,6 +17,9 @@ function TopMenu() {
                     <NavLink to="/cnpj" isActive={isActive} className="link" activeClassName="selected">CNPJ</NavLink>
                 </li>
                 <li>
+                    <NavLink to="/validatecnpj" className="link" activeClassName="selected">Validador de CNPJ</NavLink>
+                </li>
+                <li>
                     <NavLink to="/rut" className="link" activeClassName="selected">RUT</NavLink>
                 </li>
                 <li>
