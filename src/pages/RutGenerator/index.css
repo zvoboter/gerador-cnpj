@@ -1,0 +1,59 @@
+form#formRutGenerator {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+}
+
+form#formRutGenerator .content-left {
+  flex: 8;
+}
+
+form#formRutGenerator .content-right {
+  flex: 2;
+  display: flex;
+}
+
+form#formRutGenerator .content-left .recent-list {
+  display: flex;
+}
+
+form#formRutGenerator .content-left h3 {
+  margin-top: 20px;
+}
+
+form#formRutGenerator .content-left .recent-list ul {
+  flex: 1;
+  list-style-type: none;
+  background: #fff;
+  border: 1px solid #c6c6c6;
+  border-radius: 3px;
+  max-height: 225px;
+  overflow-y: auto;
+}
+
+form#formRutGenerator .content-left .recent-list ul li {
+  line-height: 55px;
+  padding: 0 20px;
+  border-top: 1px solid #c6c6c6;
+  
+}
+
+form#formRutGenerator .content-left .recent-list ul li div span {
+  font-size: 25px;
+  color: #1D3557;
+}
+
+form#formRutGenerator .content-left .recent-list ul li div {
+  display: flex;
+  align-items: center;
+}
+
+form#formRutGenerator .content-left .recent-list ul li div span {
+  flex: 1;
+}
+
+form#formRutGenerator .content-left .recent-list ul li:nth-child(1){
+  border-top: none;
+}

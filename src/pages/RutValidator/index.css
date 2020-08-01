@@ -1,0 +1,16 @@
+form#formRutValidator {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+form#formRutValidator .content {
+  flex: 8;
+  display: flex;
+  flex-direction: row;
+}
+
+form#formRutValidator .content-right {
+  flex: 2;
+  display: flex;
+}

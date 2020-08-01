@@ -20,7 +20,10 @@ function TopMenu() {
                     <NavLink to="/validatecnpj" className="link" activeClassName="selected">Validador de CNPJ</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/rut" className="link" activeClassName="selected">RUT</NavLink>
+                    <NavLink to="/RutGenerator" className="link" activeClassName="selected">RUT</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/RutValidator" className="link" activeClassName="selected">Validador de RUT</NavLink>
                 </li>
                 <li>
                     <NavLink to="/hash" className="link" activeClassName="selected">Hash</NavLink>
